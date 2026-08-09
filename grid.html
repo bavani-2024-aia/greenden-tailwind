@@ -1,0 +1,121 @@
+<style>
+
+    .container {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+
+
+    .header {
+        background-color: purple;
+        padding: 5px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer {
+        background-color: brown;
+        color: white;
+        padding: 5px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .middle {
+        background-color: navy;
+        color: white;
+        padding: 5px;
+    }
+
+
+    .one {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+
+    .main-container {
+        background-color: violet;
+        color: peachpuff;
+        height: 100px;
+        margin: 2px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sidebar {
+        background-color: pink;
+        color: black;
+        height: 100px;
+        margin: 2px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .twin {
+        background-color: orange;
+        color: black;
+        height: 100px;
+        margin: 2px;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
+
+
+<div class="container">
+
+    <div class="header">Header</div>
+
+    <div class="middle">
+
+        <div class="one">
+
+            <div class="main-container">Main Container</div>
+
+            <div class="sidebar">Sidebar</div>
+
+        </div>
+
+
+        <div class="two">
+
+            <div class="twin">Twin</div>
+
+            <div class="twin">Twin</div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">Footer</div>
+
+</div>
